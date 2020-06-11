@@ -1,0 +1,9 @@
+The `fix-org-projectile` branch differs from `master` by
+
+  git cherry-pick 6063466231ce5e209aacd2de612e53390a25c442
+
+This creates a conflict in CHANGELOG.develop, that has been removed, before running
+
+  git cherry-pick --continue
+
+to complete the cherry-pick pull.
